@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Booking Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        .navbar {
+            background-color: #b4a414;
+            
+        }
+        .navbar-brand {
+            color: #080a04;
+            
+        }
+        .hero-section {
+            background: url('5.png') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 2.5rem;
+        }
+        .pricing-card {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border: none;
+        }
+        .stats-section {
+            background-color: teal;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .stats-section h4 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background: url('7.jpeg') no-repeat center center/cover;
+            color: white;
+            padding: 40px 0;
+        }
+        .footer a {
+            color: #e06806;
+           
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="">Sky Airlnies</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">About Us</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Flights</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Offers</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <h1>Welcome to Airline Booking Services</h1>
+        <p>Book flights to your favorite destinations quickly and easily.</p>
+        <a href="#" class="btn btn-primary">Book Now!</a>
+    </div>
+</section>
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="5.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="9.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- Pricing Section -->
+<section class="py-5">
+    <div class="container text-center">
+        <h2 class="mb-5">Popular Flight Packages</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card pricing-card text-black" style="background: url(1.jpg) no-repeat center center/cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Economy Class</h5>
+                        <p>Comfortable seating<br>In-flight meals<br>10kg baggage allowance</p>
+                        <h4 class="text-warning">$299</h4>
+                        <a href="#" class="btn btn-warning">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card pricing-card text-white" style="background: url('2.jpg') no-repeat center center/cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Class</h5>
+                        <p>Luxury seating<br>Priority check-in<br>20kg baggage allowance</p>
+                        <h4 class="text-info">$699</h4>
+                        <a href="#" class="btn btn-info">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card pricing-card text-black" style="background: url('3.jpg') no-repeat center center/cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">First Class</h5>
+                        <p>Private suites<br>Gourmet meals<br>Unlimited baggage</p>
+                        <h4 class="text-light">$999</h4>
+                        <a href="#" class="btn btn-light">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Stats Section -->
+<section class="stats-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h4>Happy Travelers</h4>
+                <p>1,000,000+</p>
+            </div>
+            <div class="col-md-3">
+                <h4>Destinations</h4>
+                <p>200+</p>
+            </div>
+            <div class="col-md-3">
+                <h4>Fleet Size</h4>
+                <p>150+</p>
+            </div>
+            <div class="col-md-3">
+                <h4>Awards Won</h4>
+                <p>50+</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Flights</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Our Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">In-Flight Meals</a></li>
+                    <li><a href="#">Priority Check-In</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Newsletter</h5>
+                <form>
+                    <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                    <button class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            &copy; 2024 Airline Booking Services. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
